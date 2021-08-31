@@ -24,7 +24,7 @@ After choosing the shape, the user is asked to input certain parameters required
 Resources include a 64-bit computer and memory.
 
 # SWOT Analysis
-
+![125551581-8f7c91e6-8374-4eb4-8be8-c8c8305649e1](https://user-images.githubusercontent.com/82282114/131547556-a2fed0d5-23bc-4834-abe3-8dee35b94c71.png)
 
 # W's and 1'H
 
