@@ -7,14 +7,14 @@ using namespace std;
  square::square()
   {
     regular::side = 1;
-    regular::interior_angle = 140;
-    regular::exterior_angle = 40;
+    regular::interior_angle = 90;
+    regular::exterior_angle = 90;
 }
 
 square::square(int s) {
     regular::side = s;
-    regular::interior_angle = 140;
-    regular::exterior_angle = 40;
+    regular::interior_angle = 90;
+    regular::exterior_angle = 90;
  }
 
 bool square::valid_input()
