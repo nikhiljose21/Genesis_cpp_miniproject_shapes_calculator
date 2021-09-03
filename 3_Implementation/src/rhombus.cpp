@@ -29,12 +29,12 @@ void rhombus::display()
     std::cout<<"Perimeter of rhombus:\t"<<perimeter();
      std::cout<<"Area of rhombus:\t"<<area(); 
 }
-int rhombus::perimeter()
+double rhombus::perimeter()
     {
          return (2*sqrt(pow(diagonal1,2)+pow(diagonal2,2)));
     }
    
-int rhombus::area()
+double rhombus::area()
         {
             return (diagonal1*diagonal2/2);
         }

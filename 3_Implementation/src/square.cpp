@@ -11,7 +11,7 @@ using namespace std;
     regular::exterior_angle = 90;
 }
 
-square::square(int s) {
+square::square(double s) {
     regular::side = s;
     regular::interior_angle = 90;
     regular::exterior_angle = 90;
@@ -34,15 +34,15 @@ bool square::valid_input()
     }
 }
 
-int square::perimeter()
+double square::perimeter()
 {
     return (4*side);
 }
-int square::area()
+double square::area()
 {
     return (pow(side,2));
 }
-int square::getInteriorAngle()
+/*double square::getInteriorAngle()
 {
     return regular::interior_angle;
 }
@@ -50,13 +50,13 @@ int square::getInteriorAngle()
 int square::getExteriorAngle()
 {
     return regular::exterior_angle;
-}
+}*/
 void square::display()
 {
     std::cout<<"Perimeter of square:\t"<<perimeter();
     std::cout<<"Area of square:\t"<<area(); 
-    std::cout<<"interior angle of square:\t"<<getInteriorAngle();
-    std::cout<<"exterior angle of square:\t"<<getExteriorAngle();
+    std::cout<<"interior angle of square:\t"<<interior_angle;
+    std::cout<<"exterior angle of square:\t"<<exterior_angle;
      
 
 }
