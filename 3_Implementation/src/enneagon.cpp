@@ -9,7 +9,7 @@ enneagon::enneagon() {
     regular::exterior_angle = 40;
 }
 
-enneagon::enneagon(int side_int) {
+enneagon::enneagon(double side_int) {
     regular::side = side_int;
  }
 
@@ -29,14 +29,14 @@ bool enneagon::valid_input()
     }
 }
 
-int enneagon::area()
+double enneagon::area()
 {
     double cot = cos(180/9)/sin(180/9);
     double enneagon_area = (9/4)*pow(side,2)*cot;
     return enneagon_area;
 }
 
-int enneagon::perimeter()
+double enneagon::perimeter()
 {
     return 9*side;
 }
@@ -49,5 +49,3 @@ void enneagon::display()
     std::cout<<"Interior Angle = "<<interior_angle<<"\n";
     std::cout<<"Exterior Angle = "<<exterior_angle<<"\n";
 }
-
-

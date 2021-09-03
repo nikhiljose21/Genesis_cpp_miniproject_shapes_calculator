@@ -81,7 +81,7 @@ class enneagon : public shape,public regular
         //default constructor
         enneagon();
         //paramised constructor
-        enneagon();
+        enneagon(double side_int);
         bool valid_input();
         void display();
         double perimeter();

@@ -1,5 +1,10 @@
 #include "shape.h"
 #include<math.h>
+
+cone::cone():radius(0),height(0){}
+
+cone::cone(double r, double h):radius(r),height(h){}
+
 bool cone::valid_input()
 {
     if(radius == 0.0 || height == 0.0){
@@ -16,17 +21,17 @@ bool cone::valid_input()
     }
 }
 
-int cone::volume()
+double cone::volume()
 {
     return (pow(radius,2)*(height/3)*22/7);
 }
 
-int cone::LSA()
+double cone::LSA()
 {
     return (radius*sqrt(pow(radius,2) + pow(height,2))*22/7);
 }
 
-int cone::TSA()
+double cone::TSA()
 {
     return (radius*(radius + sqrt(pow(radius,2) + pow(height,2)))*22/7);
 }
