@@ -21,8 +21,8 @@
         
    void circle::display()
 {
-    std::cout<<"Perimeter of circle:\t"<<perimeter();
-    std::cout<<"Area of circle:\t"<<area(); 
+    std::cout<<"Perimeter of circle:\t"<<perimeter()<<"\n";
+    std::cout<<"Area of circle:\t"<<area()<<"\n"; 
     
 }
    
@@ -30,7 +30,7 @@
 {
     return (2*3.14*radius);
 }
-int circle::area()
+double circle::area()
 {
     return 3.14*(pow(radius,2));
 }
