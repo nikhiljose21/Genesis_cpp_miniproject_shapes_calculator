@@ -18,7 +18,7 @@
         }
     void hemisphere::display()
         {
-            std::cout<<"volume="<<volume()<<" "<<"Lateral surface area="<<LSA()<<" "<<"Total surface area="<<TSA()<<"\n";
+            std::cout<<"Volume="<<volume()<<"\n"<<"Lateral surface area="<<LSA()<<"\n"<<"Total surface area="<<TSA()<<"\n";
         }
     double hemisphere::volume()
         {
