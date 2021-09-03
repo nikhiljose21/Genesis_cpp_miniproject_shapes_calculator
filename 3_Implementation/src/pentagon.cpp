@@ -26,7 +26,7 @@
         }
     void pentagon::display()
         {
-            std::cout<<"Area="<<area()<<"Perimeter="<<perimeter()<<"\n"<<"Interior angle="<<interior_angle<<" "<<exterior_angle<<"\n";
+            std::cout<<"Area="<<area()<<"\n"<<"Perimeter="<<perimeter()<<"\n"<<"Interior angle="<<interior_angle<<"\nExterior angle="<<exterior_angle<<"\n";
         }
     double pentagon::perimeter()
         {
