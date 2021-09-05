@@ -12,9 +12,9 @@ For 3-D shapes:
 * Other three dimensional shapes: volume and surface area are calculated.
 
 ## Badges Earned
-| Build | Code Quality | Unity | [Git Inspector](using github.io option) | Code Coverage | 
-|--------|---------|-------|----------|----------|
-|[![C/C++ CI - Build Status](https://github.com/nikhiljose21/Genesis_cpp_miniproject_shapes_calculator/actions/workflows/c-cpp.yml/badge.svg)](https://github.com/nikhiljose21/Genesis_cpp_miniproject_shapes_calculator/actions/workflows/c-cpp.yml)|
+| Build | Code Quality | [Git Inspector](using github.io option) | Code Coverage | 
+|--------|---------|----------|----------|
+|[![C/C++ CI - Build Status](https://github.com/nikhiljose21/Genesis_cpp_miniproject_shapes_calculator/actions/workflows/c-cpp.yml/badge.svg)](https://github.com/nikhiljose21/Genesis_cpp_miniproject_shapes_calculator/actions/workflows/c-cpp.yml)|[![Code Quality - Static Code - Cppcheck](https://github.com/nikhiljose21/Genesis_cpp_miniproject_shapes_calculator/actions/workflows/code%20quality.yml/badge.svg)](https://github.com/nikhiljose21/Genesis_cpp_miniproject_shapes_calculator/actions/workflows/code%20quality.yml) 
 
 
 
