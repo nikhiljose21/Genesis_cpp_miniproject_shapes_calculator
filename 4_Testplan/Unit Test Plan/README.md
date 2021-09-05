@@ -13,3 +13,13 @@
 |  L_08       |Evaluates valid input function for Octagon|  Side=3 |True|True|PASS|Scenario based |
 |  L_09       |Evaluates perimeter and area functions of octagon for valid inputs|  Side=3 |Perimeter=24,Area=43.4556|Perimeter=24,Area=43.4556|PASS|Requirement based |
 |  L_10       |Evaluates perimeter and area functions of octagon for valid inputs|  Side=-3 |Perimeter=24,Area=43.4556|Perimeter=24,Area=43.4556|PASS|Requirement based |
+|  L_11       |Evaluates valid input function for Pentagon|  Side=0 |False|False|PASS|Scenario based |
+|  L_12       |Evaluates valid input function for Pentagon|  Side=-5 |True|True|PASS|Scenario based |
+|  L_13       |Evaluates valid input function for Pentagon|  Side=5 |True|True|PASS|Scenario based |
+|  L_14       |Evaluates perimeter and area functions of pentagon for valid inputs|  Side=5 |Perimeter=25,Area=43.011925|Perimeter=25,Area=43.011925|PASS|Requirement based |
+|  L_15       |Evaluates perimeter and area functions of pentagon for valid inputs|  Side=-5 |Perimeter=25,Area=43.011925|Perimeter=25,Area=43.011925|PASS|Requirement based |
+|  L_16       |Evaluates valid input function for Hemisphere|  Side=0 |False|False|PASS|Scenario based |
+|  L_17       |Evaluates valid input function for Hemisphere|  Side=-5 |True|True|PASS|Scenario based |
+|  L_18       |Evaluates valid input function for Hemisphere|  Side=5 |True|True|PASS|Scenario based |
+|  L_19       |Evaluates perimeter and area functions of hemisphere for valid inputs|  Side=6 |Volume=452.11887,LSA=226.28572,TSA=339.42856|Volume=452.11887,LSA=226.28572,TSA=339.42856|PASS|Requirement based |
+|  L_20       |Evaluates perimeter and area functions of hemisphere for valid inputs|  Side=-6 |Volume=452.11887,LSA=226.28572,TSA=339.42856|Volume=452.11887,LSA=226.28572,TSA=339.42856|PASS|Requirement based |
