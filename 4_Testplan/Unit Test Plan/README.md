@@ -30,3 +30,6 @@
 |  L_31       |Evaluates valid input function for Circle|  radius=0 |False|False|PASS|Scenario based |
 |  L_32      |Evaluates valid input function for Circle|  radius=3 |True|True|PASS|Scenario based |
 |  L_33       |Evaluates perimeter and area functions of Circle for valid inputs|  radius=3 |Perimeter=18.85,Area=28.27|Perimeter=18.85,Area=28.27|PASS|Requirement based |
+|  L_34       |Evaluates valid input function for Ellipse|  a=4 ,b=2  |False|False|PASS|Scenario based |
+|  L_35      |Evaluates valid input function for Ellipse|  a=4 ,b=2  |True|True|PASS|Scenario based |
+|  L_36       |Evaluate perimeter and area functions of Ellipse for valid inputs|  a=4 ,b=2 |Perimeter=19.38,Area=25.13|Perimeter=19.38,Area=25.13|PASS|Requirement based |
