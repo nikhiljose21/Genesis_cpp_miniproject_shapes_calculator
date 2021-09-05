@@ -11,6 +11,8 @@ enneagon::enneagon() {
 
 enneagon::enneagon(double side_int) {
     regular::side = side_int;
+    regular::interior_angle = 140;
+    regular::exterior_angle = 40;
  }
 
 bool enneagon::valid_input()
