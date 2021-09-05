@@ -37,7 +37,7 @@ class circle : public shape
         //default constructor
         circle();
         //paramised constructor
-        circle(double r);
+        circle(double);
         bool valid_input();
         void display();
         double perimeter();
@@ -52,7 +52,7 @@ class ellipse : public shape
         //default constructor
         ellipse();
         //paramised constructor
-        ellipse();
+        ellipse(double, double);
         bool valid_input();
         void display();
         double perimeter();
@@ -67,7 +67,7 @@ class rhombus : public shape
         //default constructor
         rhombus();
         //paramised constructor
-        rhombus();
+        rhombus(int, int);
         bool valid_input();
         void display();
         double perimeter();
@@ -81,7 +81,7 @@ class enneagon : public shape,public regular
         //default constructor
         enneagon();
         //paramised constructor
-        enneagon(double side_int);
+        enneagon(double);
         bool valid_input();
         void display();
         double perimeter();
@@ -94,7 +94,7 @@ class hexagon : public shape, public regular
         //default constructor
         hexagon();
         //paramised constructor
-        hexagon();
+        hexagon(double);
         bool valid_input();
         void display();
         double perimeter();
@@ -108,7 +108,7 @@ class octagon : public shape , public regular
         //default constructor
         octagon();
         //paramised constructor
-        octagon();
+        octagon(double);
         bool valid_input();
         void display();
         double perimeter();
@@ -121,7 +121,7 @@ class pentagon : public shape , public regular
         //default constructor
         pentagon();
         //paramised constructor
-        pentagon(double s);
+        pentagon(double);
         bool valid_input();
         void display();
         double perimeter();
@@ -135,7 +135,7 @@ class square : public shape , public regular
         //default constructor
         square();
         //paramised constructor
-        square();
+        square(double);
         bool valid_input();
         void display();
         double perimeter();
@@ -151,7 +151,7 @@ class cone : public shape_3D
          //default constructor
         cone();
         //paramised constructor
-        cone();
+        cone(double,double);
         bool valid_input();
         void display();
         double volume();
@@ -167,7 +167,7 @@ class hemisphere : public shape_3D
          //default constructor
         hemisphere();
         //paramised constructor
-        hemisphere(double r);
+        hemisphere(double);
         bool valid_input();
         void display();
         double volume();
