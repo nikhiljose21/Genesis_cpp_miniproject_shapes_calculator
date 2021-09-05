@@ -23,3 +23,17 @@
 |  L_18       |Evaluates valid input function for Hemisphere|  Side=5 |True|True|PASS|Scenario based |
 |  L_19       |Evaluates perimeter and area functions of hemisphere for valid inputs|  Side=6 |Volume=452.11887,LSA=226.28572,TSA=339.42856|Volume=452.11887,LSA=226.28572,TSA=339.42856|PASS|Requirement based |
 |  L_20       |Evaluates perimeter and area functions of hemisphere for valid inputs|  Side=-6 |Volume=452.11887,LSA=226.28572,TSA=339.42856|Volume=452.11887,LSA=226.28572,TSA=339.42856|PASS|Requirement based |
+
+|  L_21      |Evaluates perimeter and area functions of square for valid inputs|  Side=3 |Perimeter=12,Area=9|Perimeter=12,Area=9|PASS|Requirement based |
+
+|  L_21      |Evaluates perimeter and area functions of square for valid inputs|  Side=-3 |Perimeter=12,Area=9|Perimeter=12,Area=9|PASS|Requirement based |
+
+|  L_22       |Evaluates valid input function for square|  Side=0 |False|False|PASS|Scenario based |
+|  L_23       |Evaluates valid input function for square|  Side=-3 |True|True|PASS|Scenario based |
+|  L_24      |Evaluates valid input function for square|  Side=3 |True|True|PASS|Scenario based |
+|  L_25       |Evaluates valid input function for rhombus|  d1=0,d2=0 |False|False|PASS|Scenario based |
+|  L_26       |Evaluates valid input function for rhombus|  d1=-3,d2=-4 |True|True|PASS|Scenario based |
+|  L_27       |Evaluates valid input function for rhombus|  d1=3,d2=4 |True|True|PASS|Scenario based |
+|  L_28      |Evaluates perimeter and area functions of rhombus for valid inputs|  d1=3,d2=4 |Perimeter=10,Area=6|Perimeter=10,Area=6|PASS|Requirement based |
+
+|  L_29      |Evaluates perimeter and area functions of rhombus for valid inputs|  d1=-3,d2=-4 |Perimeter=10,Area=6|Perimeter=10,Area=6|PASS|Requirement based |
