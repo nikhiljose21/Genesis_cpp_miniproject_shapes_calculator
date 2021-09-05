@@ -41,8 +41,8 @@ test:
 	./$(call FixPath,$(TEST_PROJ_NAME).$(EXEC))
 
 coverage:$(BUILD)
-	g++ -fprofile-arcs -ftest-coverage -fPIC -O0 $(COV_SRC) $(SRC) $(INC) $(INC_U) $(INC_TE) -o $(TEST_OUTPUT)
-	./$(TEST_OUTPUT)
+	g++ -fprofile-arcs -ftest-coverage -fPIC -O0 $(COV_SRC) $(SRC) $(INC) $(INC_U) $(INC_TE) -o $(TEST_PROJ_NAME).$(EXEC))
+	./$(TEST_PROJ_NAME).$(EXEC))
 
 
 cppcheck:
