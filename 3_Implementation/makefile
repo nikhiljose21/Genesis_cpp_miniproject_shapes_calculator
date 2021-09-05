@@ -41,14 +41,14 @@ test:
 	./$(call FixPath,$(TEST_PROJ_NAME).$(EXEC))
 
 coverage:$(BUILD)
-	g++ -fprofile-arcs -ftest-coverage -fPIC -O0  $(SRC) -I $(INC_H) -o $(PROJ_NAME).$(EXEC)
+	g++ -fprofile-arcs -ftest-coverage -fPIC -O0  $(SRC) -I $(INC_H) main.cpp -o $(PROJ_NAME).$(EXEC)
 	./$(PROJ_NAME).$(EXEC)
 
 
 cppcheck:
-	cppcheck --enable=all $(SRC) main.c
+	cppcheck --enable=all $(SRC) main.cpp
 debug:
-	g++ -I $(INC_H) $(SRC) main.c -g -o $(PROJ_NAME).$(EXEC)
+	g++ -I $(INC_H) $(SRC) main.cpp -g -o $(PROJ_NAME).$(EXEC)
 	gdb $(PROJ_NAME).$(EXEC)
 
 valgrind:
