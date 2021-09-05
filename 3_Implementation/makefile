@@ -12,6 +12,7 @@ src/pentagon.cpp \
 src/rhombus.cpp \
 src/square.cpp 
 
+
 COV_SRC = test.cpp
 
 TEST_SRC = test/test.cpp
@@ -37,8 +38,8 @@ all:
 run:
 	./$(call FixPath,$(PROJ_NAME).$(EXEC))
 test:
-	g++ -I $(INC_H) $(TEST_SRC) $(SRC) -o $(call FixPath,$(TEST_PROJ_NAME).$(EXEC))
-	./$(call FixPath,$(TEST_PROJ_NAME).$(EXEC)) -lgtest -lgtest_main -lpthread
+	g++ -I $(INC_H) $(SRC) $(SRC_TEMP) -o $(call FixPath,$(TEST_PROJ_NAME).$(EXEC)) -lgtest -lgtest_main -lpthread
+	./$(call FixPath,$(TEST_PROJ_NAME).$(EXEC))
 
 # coverage:
 # 	cp test/test.c .
