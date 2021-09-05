@@ -14,6 +14,7 @@ For 3-D shapes:
 ## Badges Earned
 | Build | Code Quality | Unity | [Git Inspector](using github.io option) | Code Coverage | 
 |--------|---------|-------|----------|----------|
+|[![C/C++ CI - Build Status](https://github.com/nikhiljose21/Genesis_cpp_miniproject_shapes_calculator/actions/workflows/c-cpp.yml/badge.svg)](https://github.com/nikhiljose21/Genesis_cpp_miniproject_shapes_calculator/actions/workflows/c-cpp.yml)|
 
 
 
