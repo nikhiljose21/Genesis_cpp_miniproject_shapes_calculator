@@ -101,6 +101,43 @@ TEST(rhombus,Test_rhombus_Valid_inputs) {
 }
 
 
+TEST(enneagon,enneagon_Testing_functions)
+ {
+    enneagon enn(3.0);
+  EXPECT_FLOAT_EQ(27, enn.perimeter());
+  EXPECT_FLOAT_EQ(8.04591, enn.area());
+}
+
+TEST(cone,Test_cone_inputs)
+{
+    cone c(5.0,1.0);
+    EXPECT_TRUE(c.valid_input()); 
+    cone c1(0.0,0.0);
+    EXPECT_FALSE(c1.valid_input()); 
+    cone c2(-5.0,-3.0);
+    EXPECT_TRUE(c2.valid_input());
+}
+
+
+TEST(enneagon,Test_cone_inputs)
+{
+    enneagon en(5.0);
+    EXPECT_TRUE(en.valid_input()); 
+    enneagon en1(0.0);
+    EXPECT_FALSE(en1.valid_input()); 
+    enneagon en2(-5.0);
+    EXPECT_TRUE(en2.valid_input());
+}
+
+TEST(cone,Testing_functions)
+ {
+    cone co(2,3.0);
+  EXPECT_FLOAT_EQ(12.571428, co.volume());
+  EXPECT_FLOAT_EQ(22.663465, co.LSA());
+  EXPECT_FLOAT_EQ(35.2349,co.TSA());
+}
+
+
 }
 
 
