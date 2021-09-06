@@ -24,7 +24,7 @@ enneagon::enneagon(double side_int) {
  }
 
 /**
- * @brief function to check if the input is valid or not
+ * @brief member function to check if the input is valid or not
  * 
  * @return true if the inputs are valid
  * @return false if the inputs are invalid
@@ -46,7 +46,7 @@ bool enneagon::valid_input()
 }
 
 /**
- * @brief function to calculate area of enneagon
+ * @brief member function to calculate area of enneagon
  * 
  * @return double area 
  */
@@ -58,7 +58,7 @@ double enneagon::area()
 }
 
 /**
- * @brief function to calculate the perimeter of enneagon
+ * @brief member function to calculate the perimeter of enneagon
  * 
  * @return double perimeter
  */
@@ -68,7 +68,7 @@ double enneagon::perimeter()
 }
 
 /**
- * @brief function to display area, perimeter, interior and exterior angle
+ * @brief member function to display area, perimeter, interior and exterior angle
  * 
  */
 void enneagon::display()
