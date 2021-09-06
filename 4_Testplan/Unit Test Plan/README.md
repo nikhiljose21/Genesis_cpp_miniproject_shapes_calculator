@@ -34,3 +34,7 @@
 |  L_35       |Evaluates valid input function for Ellipse|  a=0 ,b=2  |False|False|PASS|Scenario based |
 |  L_36      |Evaluates valid input function for Ellipse|  a=4 ,b=2  |True|True|PASS|Scenario based |
 |  L_37       |Evaluate perimeter and area functions of Ellipse for valid inputs|  a=4 ,b=2 |Perimeter=19.38,Area=25.13|Perimeter=19.38,Area=25.13|PASS|Requirement based |
+|  L_38       |Evaluates valid input function for Enneagon|  side = 5.0  |True|True|PASS|Scenario based |
+|  L_39       |Evaluates valid input function for Enneagon|  side = 0  |False|False|PASS|Scenario based |
+|  L_40      |Evaluates valid input function for Enneagon|  side = -5.0  |True|True|PASS|Scenario based |
+|  L_41       |Evaluate perimeter and area functions of Enneagon for valid inputs| side = 3.0 |Perimeter=27,Area=8.04591|Perimeter=27,Area=8.04591|PASS|Requirement based |
