@@ -38,3 +38,7 @@
 |  L_39       |Evaluates valid input function for Enneagon|  side = 0  |False|False|PASS|Scenario based |
 |  L_40      |Evaluates valid input function for Enneagon|  side = -5.0  |True|True|PASS|Scenario based |
 |  L_41       |Evaluate perimeter and area functions of Enneagon for valid inputs| side = 3.0 |Perimeter=27,Area=8.04591|Perimeter=27,Area=8.04591|PASS|Requirement based |
+|  L_42       |Evaluates valid input function for cone|  radius = 5,height=1.0  |True|True|PASS|Scenario based |
+|  L_43       |Evaluates valid input function for cone|  radius = 0,height=0  |False|False|PASS|Scenario based |
+|  L_44      |Evaluates valid input function for cone|  radius = -5.0,height= -3.0  |True|True|PASS|Scenario based |
+|  L_45       |Evaluate perimeter and area functions of cone for valid inputs| radius = 2.0,height=3.0 |Perimeter=27,Area=8.04591|volume = 12.571428, Total surface area = 35.2349, Lateral surface area = 22.663465 |PASS|Requirement based |
