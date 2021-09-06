@@ -2,19 +2,33 @@
 #include<math.h>
 
 
-
+/**
+ * @brief default constructor for enneagon
+ * 
+ */
 enneagon::enneagon() {
     regular::side = 1;
     regular::interior_angle = 140;
     regular::exterior_angle = 40;
 }
 
+/**
+ * @brief parameterised constructor for enneagon
+ * 
+ * @param side_int 
+ */
 enneagon::enneagon(double side_int) {
     regular::side = side_int;
     regular::interior_angle = 140;
     regular::exterior_angle = 40;
  }
 
+/**
+ * @brief function to check if the input is valid or not
+ * 
+ * @return true if the inputs are valid
+ * @return false if the inputs are invalid
+ */
 bool enneagon::valid_input()
 {
 
@@ -31,6 +45,11 @@ bool enneagon::valid_input()
     }
 }
 
+/**
+ * @brief function to calculate area of enneagon
+ * 
+ * @return double area 
+ */
 double enneagon::area()
 {
     double cot = cos(180/9)/sin(180/9);
@@ -38,12 +57,20 @@ double enneagon::area()
     return enneagon_area;
 }
 
+/**
+ * @brief function to calculate the perimeter of enneagon
+ * 
+ * @return double perimeter
+ */
 double enneagon::perimeter()
 {
     return 9*side;
 }
 
-
+/**
+ * @brief function to display area, perimeter, interior and exterior angle
+ * 
+ */
 void enneagon::display()
 {
     std::cout<<"Area = "<<area()<<"\n";
