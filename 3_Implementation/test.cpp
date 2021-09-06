@@ -67,6 +67,42 @@ TEST(octagon,Testing_functions)
   EXPECT_FLOAT_EQ(43.4556, o.area());
 }
 
+TEST(square,Testing_functions)
+ {
+    square h(3.0);
+  EXPECT_FLOAT_EQ(12, h.perimeter());
+  EXPECT_FLOAT_EQ(9, h.area());
+}
+
+TEST(rhombus,Testing_functions)
+ {
+    rhombus o(3,4);
+  EXPECT_FLOAT_EQ(10, o.perimeter());
+  EXPECT_FLOAT_EQ(6, o.area());
+}
+
+
+TEST(square,Test_square_Valid_inputs) {
+    square h(3.0);
+    EXPECT_TRUE(h.valid_input()); 
+    square h1(0.0);
+    EXPECT_FALSE(h1.valid_input()); 
+    square h2(-5.0);
+    EXPECT_TRUE(h2.valid_input());
+}
+
+TEST(rhombus,Test_rhombus_Valid_inputs) {
+    rhombus o(3,4);
+    EXPECT_TRUE(o.valid_input()); 
+    rhombus o1(0,0);
+    EXPECT_FALSE(o1.valid_input()); 
+    rhombus o2(-3,-4);
+    EXPECT_TRUE(o2.valid_input());
+}
 
 
 }
+
+
+
+
