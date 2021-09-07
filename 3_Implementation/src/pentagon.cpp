@@ -11,7 +11,7 @@
         exterior_angle=0;
     }
    /**
-     * @brief parameterised constructor for hexagon
+     * @brief parameterised constructor for pentagon
      * 
      * @param s length of the side
      */
